@@ -1,0 +1,107 @@
+body{
+    display:block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.container
+{
+    position: relative;
+    height:600px;
+    left:0px;
+}
+.header
+ {
+    position: fixed;
+    top:0; left:0; right:0;
+    z-index: 1000;
+    background:#fff;
+    padding:1.5rem 9%;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0%;
+}
+.header h1{
+    position: absolute;
+    left: 30%;
+    top: -70%;
+}
+.header .logo{
+    font-weight: bolder;
+    font-size: 2.5rem;
+    color:#333;
+    height: 60px;
+}
+
+.header .logo img{
+    height: 125%;
+}
+.btn{
+    position:absolute;
+    top:30%;
+    right:20px;
+    margin-right: 10%;
+}
+button{
+    color: blue;
+    height:35px;
+    width:100px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    position: absolute;   
+}
+#data
+{
+    width:99%;
+    height:450px;
+    text-align: right;
+    justify-content: center;
+    display: flex;   
+    
+}
+.table
+{
+    width:800px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    justify-content: center;
+    box-sizing: border-box;
+    outline: none; border:none;
+    border-radius: 20px;
+    align-items: center;
+
+}
+table{
+    color:rgb(243, 118, 16);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 700;
+    box-sizing: border-box;
+    outline: none; border:none;
+    margin-top: 15%;
+    border-radius: 20px;
+    align-items: center;
+}
+table tr{
+    background:#fff;
+    text-align: center;
+    border:.1rem solid rgba(0,0,0,.2);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: 20px;
+    padding:2rem;
+    position: relative;
+    width:26rem;
+    align-items: center;
+}
+table tr :hover{
+    background-color:lightgray;
+    align-items: center;
+}
+table img{
+    clip-path: circle();
+    align-items: center;
+}
+
